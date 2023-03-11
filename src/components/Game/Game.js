@@ -26,7 +26,7 @@ function Game() {
 
   return (
     <>
-      <GuessResults guesses={paddedGuesses} />
+      <GuessResults guesses={paddedGuesses} answer={answer} />
       <GuessInput submitGuess={submitGuess} />
     </>
   );
