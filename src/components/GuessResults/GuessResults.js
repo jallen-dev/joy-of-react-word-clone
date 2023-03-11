@@ -1,5 +1,5 @@
 import React from "react";
-import Guess from "../Guess/Guess";
+import Guess from "../Guess";
 
 function GuessResults({ guesses, answer }) {
   return (
